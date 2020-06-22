@@ -20,7 +20,7 @@ namespace Jurassic.Compiler
     {
         [NonSerialized]
         private BinderDelegate[] delegateCache;
-        private const int MaximumCachedParameterCount = 8;
+        private const int MaximumCachedParameterCount = 500;
 
 
 
